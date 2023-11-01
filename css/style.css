@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+}
+section{
+    padding: 75px 0;
+    text-align: center;
+}
+.heading{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+.sub-heading{
+    font-size:25px;
+    color: #fff;
+    margin-top: 15px;
+}
+.p{
+    font-size:18px;
+    font-weight: 400;
+    color: #fff;
+    padding:0 10px;
+}
+.p2{
+    font-size:20px ;
+    color: #fff;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.btn{
+    margin: 40px 0;
+    padding: 20px 90px;
+    border-radius: 5px;
+    background: #eb7d4b;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+.box{
+    width: 25%;
+    padding: 30px;
+}
+.underline{
+    border-bottom:4px solid rgba(0, 0, 0, 0.144);
+    width: 7%;
+    margin:20px  auto;
+}
+/*header*/
+#header{
+    background: #87509c;
+    padding: 70px 0;
+}
+.header-t h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-top: 150px;  
+}
+.menu {
+    float: right;   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding:5px 18px;
+}
+li a.active{
+    background:#643a79;
+    border-radius: 5px;
+    padding:5px 18px;
+}
+/*services*/
+#services{
+    background:#17c2a4 ;
+}
+/*Team*/
+#team{
+    background: #e7f1f8;
+}
+#team h1{
+    color:#3c4761 ;
+}
+#team img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#team h2{
+    color:#3c4761 ;
+}
+#team h4{
+    color:#48c1e9;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#team p{
+    color:#3c4761;
+}
+#team .logo{
+    color:#bdd1df; 
+    font-size: 35px;
+    padding:10px;   
+}
+/*Skills*/
+#skills{
+    background:#fff;
+}
+#skills h1{
+    color:#3c4761 ;
+}
+#skills img{
+    height: 240px;
+    width: 200px;
+}
+#skills p{
+     color:#3c4761;
+}
+ /*Portfolio*/
+
+#portfolio{
+    background: #ffdd99;
+}
+#portfolio h1{
+    color:#393939 ;
+}
+#portfolio img{
+    margin-top: 50px;
+    height: 350px;
+    width: 500px;
+}
+#portfolio p{
+     color:#393939;
+     margin-bottom: 40px;
+}
+#portfolio a{
+    background:rgba(0, 0, 0, 0.144);
+    color:#393939 ;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding:5px 18px;
+} 
+#portfolio a.active{
+    background:#fff;
+    color:#393939 ;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding:5px 18px;
+}
+.box2{
+    width: 50%;
+}
+#portfolio .btn{
+    background:#17c2a4 ;
+}
+/*about*/
+#about{
+    background: #d74680;
+}
+#about img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align:right;
+    margin-left: 130px;
+}
+.about-b{
+    text-align: left;
+}
+.about-b .box{
+    text-align: left;
+    width: 25%;
+    padding:35px 0;
+    margin-right: -50px
+}
+.about-b p{
+   font-style: italic;
+   font-size: 24px;
+}
+#about h4{
+    color: #eb7d4b;
+    font-weight:500 !important;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*contact*/
+#contact{
+    background:#3c5499;
+}
+.single-row{
+    width: 100%; 
+    clear: both;
+}
+::placeholder{
+    color: #fff;
+   font-size: 18px;
+}
+.single-row textarea{
+    width: 95%;
+    border-radius: 5px;   
+    font-size: 18px;
+    color: #fff;
+    background:#273a71 ;
+    padding:10px  20px ;
+}
+.sin-c{
+    width: 48%;
+    float: left;
+    margin-left: 16px;
+    padding: 40px 0;
+}
+.sin-c input{
+    width: 95%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #273a71;
+}
+#contact .btn{
+    background: #30bae7 !important;  
+}
+/*footer*/
+#footer{
+    background:#273a71 ;
+    padding: 30px;
+}
+#footer a.active{
+    background:#273a71;
+    color: #30bae7 ;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding:5px 18px;
+}
+#footer .menu2{
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: center !important;
+}
+#footer ul li a{
+    padding: 0 40px;
+    font-size: 25px;
+}

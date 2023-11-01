@@ -1,0 +1,134 @@
+@media(min-width:601px)and (max-width: 840px){
+
+      section{
+        padding: 60px 0;
+        text-align: center;
+      }
+      .container{
+        width: 95%;
+      }
+      .heading{
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        line-height: 50px;
+      }
+      .box{
+        width: 25%;
+        padding: 20px;
+      }
+      /*header*/
+       #header{
+          background-color: #eb7d4b;
+          padding: 30px 0;
+      }
+      .btn{
+            margin-top: 40px ;
+            border-radius: 5px;
+            font-size: 17px;
+            font-weight: 500;
+            background: #643a79;
+            padding: 15px 30px;
+      }
+      .menu {
+          margin-top: 30px; 
+      }
+    
+      [class*="col-s-"] {
+            float: left;
+      }
+    
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    
+    
+      .header-t h1{
+            text-align: center;
+            color: #fff;
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 50px;
+            margin-top: 40px;  
+      }
+      /*services*/
+      .service-b img{
+          margin-top: 50px;
+          height: 150px;
+          width: 150px;
+      }
+      /*team*/
+      .team-b img {
+          margin-top: 50px;
+          height: 150px;
+          width: 150px;
+      }
+    
+      /*portfolio*/
+    
+      #portfolio img{
+          margin-top: 50px;
+          height: 200px;
+          width: 235px;
+      }
+      /*about*/
+      #about img{
+          height: 90px;
+          width: 90px;
+          border-radius: 50px;
+          margin-left:47px !important;
+      }
+      .about-b .box{
+          text-align:left;
+          width: 30%;
+          padding:35px 0;
+          margin-right: -50px;
+      }
+      .about-b p{
+          font-style: italic;
+          font-size: 20px;
+         padding-right: 2px;
+      }
+      /*content*/
+      #contact .sin-c{
+        width: 50% !important;
+        float: left;
+        padding: 15px 0;
+        margin-left:0px!important;
+      }
+      .single-row textarea{
+      width: 98%;
+      height: 190px !important;
+      border-radius: 5px;
+      padding-top: 15px !important;   
+      font-size: 18px;
+      color: #fff;
+      background:#273a71 ;
+      padding:10px  20px ;
+      }
+      .single-row ::focus{
+      border-color: #273a71 !important;
+    
+      }
+     /*footer*/
+     #footer .menu{
+      text-align:center !important;
+  }
+     #footer ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: #fff;
+      padding:15px 8px;
+      }
+    }
